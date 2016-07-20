@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hoya Health</title>
+	<script src='./node_modules/nprogress/nprogress.js'></script>
+	<script>
+	document.addEventListener("DOMContentLoaded", function(event) { 
+	  NProgress.start();
+	});
+	</script>
+	<link rel='stylesheet' href='./node_modules/nprogress/nprogress.css'/>
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="./kendo/styles/kendo.common.min.css">
+	<link rel="stylesheet" href="./kendo/styles/kendo.default.min.css">
+	<link rel="stylesheet" href="./kendo/styles/kendo.default.mobile.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="page-wrap">
+
+  <header class="site-header">
+
+    <div class="site-header__inner u-maxWidth1000  u-paddingRight20  u-paddingLeft20  u-marginAuto">
+
+	    <a href="" class="site-header__logo"><i class="ion  ion-social-codepen"></i></a>
+
+	    <div class="button-set">
+	    	<button class="button  button--small  button--solid">test</button>
+	  		<button class="button  button--small  button--circle--small  button--transparent"><i class="ion  ion-android-notifications-none"></i></button>
+	  		<button class="button  button--small  button--circle--small  button--transparent"><i class="ion   ion-ios-person-outline"></i></button>
+	  	</div>
+
+	  	<div class="site-nav-top">
+
+	  		<ul class="site-nav-top__list">
+
+	  			<li>
+	  				<button class="button  button--small   button--text  button--transparent  button--borderless"><i class="ion  ion-ios-home-outline"></i>Home</button>
+	  			</li>
+
+	  			<li>
+	  				<button class="button  button--small   button--text  button--transparent  button--borderless"><i class="ion  ion-ios-heart-outline"></i>Vital Sign</button>
+	  			</li>
+
+	  			<li>
+	  				<button class="button  button--small   button--text  button--transparent  button--borderless"><i class="ion  ion-ios-calendar-outline"></i>Schedule</button>
+	  			</li>
+
+	  			<li>
+	  				<button class="button  button--small   button--text  button--transparent  button--borderless  is-active"><i class="ion  ion-ios-body"></i>PHR</button>
+	  			</li>
+
+	  		</ul>
+
+	  	</div>
+
+  	</div>
+
+  </header>
+
+
+
+
+
+  <section class="site-content  u-maxWidth1000  u-marginAuto">
+
+		<div class="container-fluid">
+
+			<div class="row">
+
+	      <div class="col-ms-12  col-sm-1  site-nav-sidebar">
+
+	        <ul class="site-nav-sidebar__list">
+
+						  <li class="site-nav-sidebar__item">
+						    <button class="button  button--medium  button--circle--medium   button--transparent"><i class="ion  ion-ios-home-outline"></i></button>
+						  </li>
+
+						  <li class="site-nav-sidebar__item">
+						    <button class="button  button--medium  button--circle--medium   button--transparent"><i class="ion  ion-ios-heart-outline"></i></button>
+						  </li>
+
+						  <li class="site-nav-sidebar__item">
+						    <button class="button  button--medium  button--circle--medium   button--transparent"><i class="ion  ion-ios-calendar-outline"></i></button>
+						  </li>
+
+
+              <li class="site-nav-sidebar__item">
+						    <button class="button  button--medium  button--circle--medium   button--transparent  is-active"><i class="ion  ion-ios-body"></i></button>
+						  </li>
+						  
+					</ul>
+
+	      </div>	
+
+	      <div class="col-ms-12  col-sm-11  site-content__wrapper">
+
+        	<div class="row">
+
+        		<!-- TWO COLUMN LAYOUT -->
+
+        		<div class="col-ms-12  col-sm-6">
+
+        		  <div class="card" style="height:auto;">
+        			  
+						    <ul id="panelbar-1" class="panelbar">
+
+	                <li class="panelbar__item">
+                    <span class="k-link">Allergies</span>
+                    <div class="panelbar__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+	                </li>
+
+	                <li class="panelbar__item">
+	                    <span class="k-link">Medications</span>
+	                    <div class="panelbar__content">
+	                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	                    </div>
+	                </li>
+
+	                <li class="panelbar__item">
+                    <span class="k-link">Conditions</span>
+                    <div class="panelbar__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+	                </li>
+
+            		</ul>
+
+        		  </div>
+
+
+
+
+
+        		  <div class="card" style="height:auto;">
+        			  
+						    <ul id="panelbar-2" class="panelbar">
+
+	                <li class="panelbar__item">
+                    <span class="k-link">Allergies</span>
+                    <div class="panelbar__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+	                </li>
+
+	                <li class="panelbar__item">
+                    <span class="k-link">Medications</span>
+                    <div class="panelbar__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+	                </li>
+
+
+
+
+
+	                <li class="panelbar__item">
+                    <span class="k-link">Conditions</span>
+                    <div class="panelbar__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+	                </li>
+	                
+            		</ul>
+
+        		  </div>
+
+
+
+
+
+        		  <div class="card" style="height:auto;">
+
+								<div class="vital-sign">
+
+									<div class="vital-sign__header">Pulse</div>
+
+									<div class="vital-sign__tab-menu">
+										
+										<span class="vital-sign__tab-item  is-active  js-vital-current">Current</span>
+
+										<span class="vital-sign__tab-item  js-vital-history">History</span>
+
+									</div>
+
+									<div class="vital-sign__content">
+										
+										<div class="vital-sign__current">
+											
+											<i class="fa  fa-heart-o"></i>
+
+											<h1 class="vital-sign__reading">0</h1>
+
+											<h5 class="vital-sign__unit">bpm</h5>
+
+										</div>
+
+
+
+
+										<div class="vital-sign__history">
+
+											<div class="chart-wrapper">
+
+												<div id="chart"></div>
+												
+											</div>		
+
+										</div>
+
+										<div class="vital-sign__status">
+											
+											<div class="status-bar">
+
+												<div class="status-bar__background">
+
+													<div class="status-bar__inner"></div> 
+
+												</div>
+											
+											  <div class="status-bar__labels">
+											    <span>0</span>
+											    <span>25</span>
+											    <span>50</span>
+											    <span>75</span>
+											    <span>100</span>
+											  </div>
+
+											  <p class="status-bar__text">ok</p>
+
+											</div>
+
+											<div class="btn-wrap">
+
+											  <input id="input" class="input" type="text" /><span class="percent">bpm</span>
+												<button class="run">Run</button>
+												<button class="reset">Reset</button>
+											  <button class="start">Start</button>
+											  <button class="stop">Stop</button>
+											 
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+        		  </div>
+
+        		</div>
+
+        		<div class="col-ms-12  col-sm-6">
+
+        		  <div class="card" style="height:auto">
+        		  	
+								<div id="grid-1"></div>
+
+        		  </div>
+
+
+
+
+						  
+						  <div class="card" style="height:auto;">
+						  	
+								<div id="tabstrip">
+
+                  <ul>
+
+                      <li class="k-state-active">Paris</li>                  
+
+                      <li>New York</li>
+
+                      <li>London</li>
+
+                      <li>Moscow</li>
+
+                  </ul>
+
+                  <div>
+                    <div class="tabstrip__content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="tabstrip__content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="tabstrip__content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="tabstrip__content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+
+              	</div>
+
+						  </div>
+
+        		</div>
+
+
+        		<!-- SINGLE COLUMN LAYOUT -->
+
+        		<!-- <div class="col-ms-12  col-sm-12"><div class="card">content</div></div>
+
+        		<div class="col-ms-12  col-sm-12"><div class="card">content</div></div> -->
+
+        	</div>
+
+	      </div>		
+
+			</div>
+
+		</div>
+
+  </section>
+
+</div>
+
+
+
+
+
+<footer class="site-footer">2016 © Hoya Health</footer>
+
+
+
+
+
+<script src="./javascript/jquery-2.2.4.min.js"></script>
+<script src="./kendo/js/kendo.all.min.js"></script>
+
+<script>
+
+
+
+
+
+	// TOGGLE ACTIVE SIDEBAR
+	$('.site-nav-sidebar .button').click(function() {
+		if (!$(this).hasClass('is-active')) {
+			$('.site-nav-sidebar .is-active').removeClass('is-active');
+			$(this).addClass('is-active');
+		}
+	})
+
+
+
+
+	// TOGGLE ACTIVE TOP NAV
+	$('.site-nav-top .button').click(function() {
+		if (!$(this).hasClass('is-active')) {
+			$('.site-nav-top .is-active').removeClass('is-active');
+			$(this).addClass('is-active');
+		}
+	})
+
+
+
+
+
+	$(document).ready(function() {
+
+
+
+
+
+			// PANELBAR
+      $("#panelbar-1").kendoPanelBar({
+          expandMode: "multiple"
+      });
+
+      $("#panelbar-2").kendoPanelBar({
+          expandMode: "multiple"
+      });
+
+
+
+
+
+      // GRID
+      $("#grid-1").kendoGrid({
+        dataSource: {
+            data: [
+            { ContactName: "bob", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "adam", ContactTitle: "employee", CompanyName: "Facebook" },
+            { ContactName: "joe", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "david", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "michael", ContactTitle: "employee", CompanyName: "Twitter" },
+            { ContactName: "greg", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" },
+            { ContactName: "joseph", ContactTitle: "employee", CompanyName: "Apple" }
+            ],
+            pageSize: 8
+        },
+        height: 391,
+        groupable: true,
+        sortable: true,
+        pageable: {
+            refresh: true,
+            pageSizes: true,
+            buttonCount: 5
+        },
+        columns: [{
+            template: "<div class='customer-name'>#: ContactName #</div>",
+            field: "ContactName",
+            title: "Contact Name",
+            width: 200
+        }, {
+            field: "ContactTitle",
+            title: "Contact Title",
+            width: 100
+        }, {
+            field: "CompanyName",
+            title: "Company Name",
+            width: 100
+        }]
+    });
+
+
+
+
+
+
+    // TABSTRIP
+    $("#tabstrip").kendoTabStrip({
+      animation:  {
+          open: {
+              effects: "fadeIn"
+          }
+      }
+    });
+  });
+
+
+
+
+
+	// VITAL SIGN
+
+// var green  = '#88ff4d';
+// var yellow = '#ffd633';
+// var red    = '#ff3333';
+var green  = '#71ca7d';
+var yellow = '#fff647';
+var red    = '#f25689';
+
+var redB    = '#f790b2';
+var greenB  = '#a2dcaa';
+var yellowB = '#fff987';
+
+// Threshold numbers
+var redLow = 40;
+var yellowLow = 59;
+var yellowHigh = 101;
+var redHigh = 120;
+var min = 0;
+var max = 200;
+
+// calculate label values
+var range = max - min;
+var step = Math.ceil(range/4);
+
+$('.status-bar__labels span:nth-child(1)').text(min);
+$('.status-bar__labels span:nth-child(2)').text(step);
+$('.status-bar__labels span:nth-child(3)').text(2*step);
+$('.status-bar__labels span:nth-child(4)').text(3*step);
+$('.status-bar__labels span:nth-child(5)').text(max);
+
+$('.run').click(function() { 
+  // value
+  var v = $('#input').val();
+  changeVal(v);
+})
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+var simulate;
+
+$('.start').click(function(){
+  simulate = setInterval(function() {
+    var v = getRandomInt(50,100);
+    changeVal(v);
+  }, 500)
+})
+
+
+// CHANGE VAL
+
+function changeVal(v) {
+
+	$('.vital-sign__reading').text(v);
+  
+  // percent in number form
+  var p = ( v / max )*100;
+  // percent in string form
+  var percent =  p + "%";
+  $('.status-bar__inner').css('width', percent);
+  
+  
+  
+//   GOOD
+  if (v > yellowLow && v < yellowHigh) {
+    $('.status-bar__inner').css('background-color', green);
+    $('.status-bar__text').css('color', green);
+    $('.vital-sign__reading').css('color', green);
+    $('.vital-sign__current i').css('color', green);
+    $('.status-bar__text').text('good');
+    $('.status-bar__background').css('background-color', greenB);
+  }
+  
+  
+//   OK
+  if ((v > redLow && v < yellowLow) || (v > yellowHigh && v < redHigh)) {
+    $('.status-bar__inner').css('background-color', yellow);
+    $('.status-bar__text').css('color', yellow);
+    $('.vital-sign__reading').css('color', yellow);
+    $('.vital-sign__current i').css('color', yellow);
+    $('.status-bar__text').text('ok');
+    $('.status-bar__background').css('background-color', yellowB);
+  }
+  
+  
+//   BAD
+  if (v < redLow || v > redHigh) {
+    $('.status-bar__inner').css('background-color', red);
+    $('.status-bar__text').css('color', red);
+    $('.vital-sign__reading').css('color', red);
+    $('.vital-sign__current i').css('color', red);
+    $('.status-bar__text').text('bad');
+    $('.status-bar__background').css('background-color', redB);
+    
+  }
+}
+
+
+// RESET
+
+$('.reset').click(function() {
+  $('.status-bar__inner').css('width', '0%');
+  $('.status-bar__inner').css('background-color', red);
+  $('.status-bar__text').css('color', '#aaa');
+  $('.status-bar__text').text('enter value');
+  $('.vital-sign__reading').css('color', '#aaa');
+  $('.vital-sign__current i').css('color', '#aaa');
+  $('.vital-sign__reading').text(0);
+  $('.status-bar__background').css('background-color', 'rgba(0,0,0,0.1)');
+})
+
+
+$('.stop').click(function(){
+  clearInterval(simulate);
+})
+
+
+
+
+
+// TOGGLE ACTIVE VITAL
+
+$('.vital-sign__tab-item').click(function() {
+	if (!$(this).hasClass('is-active')) {
+		$('.vital-sign__tab-menu .is-active').removeClass('is-active');
+		$(this).addClass('is-active');
+	}
+
+	if ($('.js-vital-current').hasClass('is-active')) {
+		$('.vital-sign__current').show();
+		$('.vital-sign__history').hide();
+	} else {
+		$('.vital-sign__current').hide();
+		$('.vital-sign__history').show();
+	}
+})
+
+
+
+
+
+
+
+// VITAL SIGN CHART
+$("#chart").kendoChart({
+  title: {
+      text: "Past Week",
+      font: "14px 'open sans'",
+      color: '#aaa'
+  },
+  chartArea: { 
+      margin: {
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0             
+      },
+      padding: 0, 
+      height: 260, 
+      width: 300,
+      background: 'white'
+  },
+  plotArea: { 
+      margin: 0, 
+      padding: 0, 
+      height: 260, 
+      width: 300,
+      background: '#44bea7',
+      opacity: 0
+  },
+  legend: {
+      position: "bottom",
+      labels: {
+          font: "'open sans'",
+          color: '#aaa'
+      }
+  },
+  seriesDefaults: {
+      type: "area"
+  },
+  seriesColors: ["#3fcbff"],//#c7f8ef //#3fcbff  //rgba(0,0,0,0.1)
+  series: [{
+      name: "7/1-7/8",
+      data: [3.907, 7.943, 7.848, 9.284, 9.263, 9.801, 3.890],
+      opacity: 1
+  }],
+  valueAxis: {
+      labels: {
+          format: "{0}%",
+          font: "12px 'open sans'",
+          color: '#aaa',
+          margin: {
+		        right: 20
+		      }
+      },
+      majorUnit: 4,
+      majorGridLines: {
+        step: 2
+      },
+      line: {
+          visible: false
+      },
+      majorGridLines: {
+          visible: false
+      },
+      axisCrossingValue: -10
+  },
+  categoryAxis: {
+      categories: ['M', 'T', 'W', 'TH', 'F', 'S', 'SU'],
+      majorGridLines: {
+          visible: false
+      },
+      labels: {
+          font: "12px 'open sans'",
+          color: '#aaa',
+          margin: {
+		        top: 20,
+		        bottom: 10          
+      		}
+      },
+      line: {
+        visible: false
+      },
+      majorTicks: {
+        visible: false
+      }
+  },
+  xAxis: {
+      majorGridLines: {
+        visible: false
+      },
+      minorGridLines: {
+        visible: false
+      }
+  },
+  yAxis: {
+      majorGridLines: {
+        visible: false
+      },
+      minorGridLines: {
+        visible: false
+      }
+  },
+  tooltip: {
+      visible: true,
+      format: "{0}%",
+      template: "#= series.name #: #= value #"
+  }
+});  
+
+$(window).on("resize", function() {
+  kendo.resize($(".chart-wrapper"));
+});
+
+// NPROGRESS
+$(window).load(function() {
+		NProgress.done();
+})
+
+</script>
+
+</body>
+
+</html>

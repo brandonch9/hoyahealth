@@ -1,0 +1,29 @@
+backend
+
+amazon cloud
+apache
+spring
+tomcat
+
+dao
+facade wrapper
+
+kendo ui
+backbone
+
+steph
+klay
+kd 
+dray
+zaza
+
+sdot
+iggy
+west
+
+clark
+mccaw
+looney
+carter
+jones
+mcadoo

@@ -1,0 +1,118 @@
+// 1 - Load project variables.
+// 2 - Load bootstrap sass files.
+// 3 - Load custom app sass files.
+
+// --------------------------------------------------------
+//  Import in the default bootstrap variables.
+//  Then override bootstrap default with project specific values.
+// --------------------------------------------------------
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "variables";
+
+
+
+// --------------------------------------------------------
+// Import required bootstrap sass files needed for this project.
+// Uncomment any bootstrap functionality required for this project.
+// The idea is to keep this as small as possible.
+// --------------------------------------------------------*/
+
+/* --------------------------------------------------------
+   Core mixins
+   -------------------------------------------------------- */
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+/* --------------------------------------------------------
+   Reset and dependencies
+   -------------------------------------------------------- */
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/print";
+
+
+
+/* --------------------------------------------------------
+   Core CSS
+   -------------------------------------------------------- */
+
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/reboot";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/images";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+
+
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/animation";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdown";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/custom-forms";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/card";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumb";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/pager";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/alert";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/badges";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/progress_bars";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/media";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+
+
+
+/* --------------------------------------------------------
+   Components w/ JavaScript
+   -------------------------------------------------------- */
+
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+
+
+/* --------------------------------------------------------
+   Utility classes
+   -------------------------------------------------------- */
+
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities-background";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities-spacing";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/theme";
+
+
+
+/* --------------------------------------------------------
+   Custom mid small breakpoint between xs and sm
+   -------------------------------------------------------- */
+
+@import "ms";
+
+
+
+/* --------------------------------------------------------
+   Custom application specific styles
+   -------------------------------------------------------- */
+
+@import "utilities";
+@import "base";

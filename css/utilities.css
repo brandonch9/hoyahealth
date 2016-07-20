@@ -1,0 +1,14 @@
+/* --------------------------------------------------------
+   Max Width Utility
+   -------------------------------------------------------- */
+.u-maxWidth1000 {
+  max-width: 1000px !important; }
+
+.u-paddingRight20 {
+  padding-right: 20px !important; }
+
+.u-paddingLeft20 {
+  padding-left: 20px !important; }
+
+.u-marginAuto {
+  margin: 0 auto; }
